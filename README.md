@@ -1,0 +1,2 @@
+# whale-script
+browser action;
