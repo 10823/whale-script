@@ -1,0 +1,35 @@
+{
+	"manifest_version":2,
+	"name":"whale",
+	"version":"1.0",
+	"description":"鲸鱼助手",
+	"author":"leon",
+	"icons":
+	{
+		"16":"img/whale_icons.png",
+		"48":"img/whale_icons.png",
+		"128":"img/whale_icons.png"
+	},
+	"browser_action":
+	{
+		"default_icon":"img/whale_icons.png",
+		"default_title":"鲸鱼助手",
+		"default_popup":"popup.html"
+	},
+	"background":
+	{
+		"page": "background.html"
+		//"scripts": ["js/background.js"]
+	},
+	"permissions":
+	[
+		"contextMenus",
+		"tabs",
+		"notifications",
+		"webRequest",
+		"webRequestBlocking",
+		"storage",
+		"http://*/*",
+		"https://*/*"
+	]
+}
